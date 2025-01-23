@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid black
+    border: 0;
+   /* border: 1px solid black*/
 }
 
 body {
@@ -14,13 +15,12 @@ body {
 
 .section {
     max-width: 60%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding: 100px 20%;
 }
 
 #one {
     background-color: #1F2937;
-    padding-bottom: 100px;
+    padding-top: 20px;
 }
 
 #header div{
@@ -90,9 +90,8 @@ body {
 }
 
 #two {
-    padding-top: 40px;
-    padding-bottom: 100px;
     text-align: center;
+    padding-top: 40px;
 }
 
 #two div {
@@ -121,32 +120,28 @@ body {
     color: darkgrey;
 }
 
-.section-three {
+#third {
     background-color: #E5E7EB;
-    padding-top: 100px;
-    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 60%;
-    padding-left: 20%;
-    padding-right: 20%;
 }
 
-.section-three .quote {
+#third #quote {
     max-width: 900px;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
 }
 
-.section-three .author {
+#third #author {
     color: black;
     font-size: 24px;
     align-self: flex-end;
 }
 
-.section-four {
+#four {
     max-width: 60%;
     padding-left: 20%;
     padding-right: 20%;
@@ -156,7 +151,7 @@ body {
     justify-content: center;
 }
 
-.section-four .banner {
+#four #banner {
     flex: 1;
     background-color: #3882F6;
     padding: 45px 80px;
@@ -167,11 +162,16 @@ body {
     color: #F9FAF8;
 }
 
-.banner-title{
+#banner .title{
     font-size: 24px;
     font-weight: 700;
 }
-.section-four .signup {
+
+#banner .text {
+    font-size: 20px;
+}
+
+#four .signup {
     border: 1px solid #F9FAF8;
     align-self: flex-end;
 }
@@ -179,10 +179,7 @@ body {
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    max-width: 60%;
-    padding-left: 20%;
-    padding-right: 20%;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 18px;
+    padding: 30px 20%;
 }
