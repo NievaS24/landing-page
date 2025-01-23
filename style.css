@@ -89,6 +89,10 @@ body {
     align-self: flex-start;
 }
 
+#hero img {
+    width: 595px;
+}
+
 #two {
     text-align: center;
     padding-top: 40px;
@@ -112,12 +116,18 @@ body {
     gap: 40px;
 }
 
+#fig-container img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
 #two figure {
     max-width: 155px;
 }
 
 #two figcaption {
-    color: darkgrey;
+    color: hsl(0, 0%, 30%);
 }
 
 #third {
